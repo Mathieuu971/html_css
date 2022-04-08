@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/03_formulaire.css" rel="stylesheet" type="text/css">
+    <title>formulaire</title>
+</head>
+<body>
+    <!--Yo what's uuuuuuuuuuuuup-->
+    <form>
+        <div>
+        <label for="pseudo"> Pseudo*</label>
+        <input type="text" id="pseudo" name="pseudo" placeholder="TitiVLG" required>
+        <!-- required indique que ce champ doit etre remplis-->
+        <br>
+        
+        <!--mdp-->
+        <label for=mdp>Mot de passe * </label>
+        <input type="password" id="mdp" name="mdp" placeholder="Mot de passe" required> 
+        <br>
+        <!--Adresse mail-->
+        <label for=email>e-mail*</label>
+        <input type="e-mail" id="e-mail" name="e-mail" placeholder="exemple@hotmail.fr" required>
+        <br>
+        <!--Photo-->
+        <label for="photo">Photo</label>
+        <input type="file" id="photo" name="photo">
+        <br>
+        <br>
+        <label  for="Question">Quelle destination choisissez vous ?</label>
+        <p>
+            
+            <input type="checkbox" id="Guadeloupe" name="Question"> Guadeloupe
+            <input type="checkbox" id="Japon" name="Question"> Japon
+            <input type="checkbox" id="Espagne" name="Question"> Espagne
+        </p>
+<br>
+    
+    <label for="commentaires">Commentaires</label>
+    <textarea type="Textarea" id="commentaires" name="commentaires" rows="10" cols="80"></textarea>
+<br>
+        <input type="submit" id="inscription" name="inscription" value="Envoyer" >
+
+        <input type="reset" name="annuler" id="annuler" value="annuler">
+        </div>
+    </form>
+    
+</body>
+</html>

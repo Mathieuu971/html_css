@@ -1,0 +1,15 @@
+.first{
+    display: flex;
+}
+
+.content{
+width: 1000px;
+margin:0 auto;
+bottom: 30px;
+top: 30px;
+}
+
+.second{
+    padding: 5px;
+    text-align: center;
+}

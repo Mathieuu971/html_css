@@ -1,0 +1,28 @@
+
+body{
+    width: 50%;
+    margin: auto;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+.YL{
+    background-color: #ffe300;
+}
+td{
+    border: 1px solid black;
+    
+    width: 30px;
+    height: 30px;
+}
+.GR{
+    background-color: grey;
+}
+.BL{
+    background-color: black;
+}
+.BLU{
+    background-color: blue;
+}

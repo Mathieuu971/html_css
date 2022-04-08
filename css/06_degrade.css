@@ -1,0 +1,9 @@
+.contenu{
+    background: linear-gradient(to left, #40a497, #6840a4);
+    /* dégradé qui demarre avec la premiere couleur et finis avec la second de haut en bas apr defaut mais ici on a ajouté toi left qui change le sens de gauche a droite */
+    width: 45em;
+    height: 45em;
+    margin: 0 auto;
+    border-radius: 50%;
+    /* la propriété border radius permet d'arrondire plus ou moins les angles */
+}

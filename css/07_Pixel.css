@@ -1,0 +1,14 @@
+body{
+    width: 50%;
+    margin: auto;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    
+    width: 30px;
+    height: 30px;
+}
