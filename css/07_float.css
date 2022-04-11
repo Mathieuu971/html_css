@@ -1,0 +1,82 @@
+body{
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+div{
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+p {
+    background-color: mediumaquamarine;
+    /* propriété suivante a testé
+        display : inline */
+
+}
+p span {
+/* selectionne les span contenus dans les p */
+background-color: yellow;
+}
+.boite{
+    height: 11vh;
+    width: 12vh;
+    padding: 5vh;
+    background: url(../img/OIP.jfif);
+    background-repeat: no-repeat;
+    border: 5px double yellowgreen;
+    margin: 2vh;
+    float: left;
+    transition: margine0 5s;
+
+}
+.boite:hover{
+    margin-top: 10vh;
+}
+.clear{
+    clear: both;
+}
+.boite2{
+    height: 11vh;
+    width: 11vh;
+    padding: 5vh;
+    background: url(../img/ezz.jfif);
+    background-repeat: no-repeat;
+    border: 5px double yellowgreen;
+    margin: 2vh;
+    float: left;
+    transition: margine0 5s;
+}
+p:hover {
+    color: yellow;
+}
+.boite3{
+    height: 9vh;
+    width: 18vh;
+    padding: 5vh;
+    background: url(../img/Apex\ jpeg.jfif);
+    background-repeat: no-repeat;
+    border: 5px double yellowgreen;
+    margin: 2vh;
+    float: left;
+    transition: margine0 5s;
+}
+.boite2:hover{
+    margin-top: 10vh;
+}
+.boite3:hover{
+    margin-top: 10vh;
+}
+.boite4{
+    height: 11vh;
+    width: 12vh;
+    padding: 5vh;
+    background: url(../img/Ja\ GIF.gif);
+    background-repeat: no-repeat;
+    border: 5px double yellowgreen;
+    margin: 2vh;
+    float: left;
+    transition: margine0 5s;
+}
+.boite4:hover{
+    margin-top: 10vh;
+}

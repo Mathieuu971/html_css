@@ -7,8 +7,25 @@ table, th, td {
     border-collapse: collapse;
 }
 td{
-    border: 1px solid black;
+    border: 0px solid black;
     
     width: 30px;
     height: 30px;
+}
+
+.black{
+    background-color: black;
+}
+.mrn{
+    background-color: #3d2d1c;
+}
+
+.zzz{
+    background-color: #574330fa;
+}
+.pink{
+    background-color: #f1ab71;
+}
+table, th, td {
+    border-collapse: collapse;
 }
