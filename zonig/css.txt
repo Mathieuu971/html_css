@@ -1,0 +1,71 @@
+body{
+    color: white;
+    font-size: 25px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.C1{
+    background-color: rgb(239, 186, 164);
+}
+.C5{
+    background-color: cornflowerblue;
+}
+#conteneur{
+    width: 1000px;
+
+}
+.C9{
+    background-color: rgba(113, 5, 5, 0.705);
+}
+.C13{
+    background-color: rgb(230, 210, 181);
+}
+header{
+    background-color: rgb(230, 138, 72);
+    height: 70px;
+}
+nav{
+    background-color: yellowgreen;
+}
+footer{
+    background-color: blue;
+    height: 50px;
+}
+
+.C1, .C13, .C5, .C9{
+    width: 220px;
+    height: 70px;
+        float: left;
+    }
+.clear{
+    clear: both;
+}
+section{
+    height: 512px;
+    background-color: cyan;
+    margin: auto;
+
+    
+}
+.C1{
+    border: 1px solid white;
+    width:246px ;
+    height: 125px;
+    text-align: center;
+}
+.C13{
+    border: 1px solid white;
+    width:246px ;
+    height: 125px;
+}
+.C5{
+    border: 1px solid white;
+    width:246px ;
+    height: 125px;
+}
+.C9{
+    border: 1px solid white;
+    width:246px ;
+    height: 125px;
+}

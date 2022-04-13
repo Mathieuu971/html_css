@@ -1,0 +1,45 @@
+body{
+
+}
+header{
+    background-color: red;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-align: center;
+}
+footer{
+    background-color: yellow;
+}
+.Gauche{
+    background-color: mediumpurple;
+    height: 50px;
+    flex-direction: column;
+    line-height: 50px;
+    text-align: center;
+}
+.Droite{
+    background-color: mediumpurple;
+    flex-direction: column;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.zone{
+    background-color: greenyellow;
+    border: 2px solid black;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+#conteneur{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+footer{
+text-align: center;
+line-height: 5;
+}
+section{
+}

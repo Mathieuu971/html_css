@@ -1,0 +1,55 @@
+body{
+    color: white;
+    font-size: 25px;
+}
+.A{
+    background-color: brown;
+    
+}
+.B{
+    background-color: olive;
+    
+}
+.C{
+    background-color: burlywood;
+    
+}
+.D{
+    background-color: rgb(48, 166, 166);
+    
+}
+header{
+    background-color: purple;
+    height: 30px;
+    
+}
+#conteneur{
+    border: 1px solid black;
+}
+.clear{
+    clear: both;
+}
+nav{
+    background-color: black;
+    height: 30px;
+}
+#conteneur{
+    width: 80%;
+    border: 2px solid darkslategray;
+    margin: auto;
+}
+section{
+    background-color: #787746;
+    height: 500px;
+    margin: 20px;
+}
+
+.A, .B, .C, .D {
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+footer{
+    background-color: #4a1a2c;
+    height: 80px;
+}

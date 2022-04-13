@@ -1,0 +1,116 @@
+.Vert{
+    background-color: rgb(25, 143, 25);
+    height: 11vh;
+    width: 8vh;
+    padding: 5vh;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    border-radius: 5% 20% 30% 40%;
+    margin: 3px ;
+    float: left;
+    transition: margine0 5s;
+}
+.cyan{
+    background-color: cyan;
+    height: 11vh;
+    width: 8vh;
+    padding: 5vh;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    border-radius: 35% 0%;
+    margin: 3px ;
+    float: left;
+    transition: margine0 5s;
+
+}
+.LG{
+    background-color: rgb(138, 222, 206);
+    height: 11vh;
+    width: 8vh;
+    padding: 5vh;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    margin: 3px ;
+    float: left;
+    transition: margine0 5s;
+
+}
+.pink{
+    background-color: salmon;
+    height: 11vh;
+    width: 8vh;
+    padding: 5vh;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    border-radius: 5% 35%;
+    margin: 3px ;
+    float: left;
+    transition: margine0 5s;
+
+}
+.red{
+    background-color: red;
+    height: 11vh;
+    width: 8vh;
+    padding: 5vh;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    border-radius: 5% 35%;
+    margin: 3px ;
+    float: left;
+    transition: margine0 5s;
+
+}
+.clear{
+    clear: both;
+}
+.Random{
+    background-color: white;
+    height: 11vh;
+    width: 8vh;
+    padding: 5vh;
+    background-repeat: no-repeat;
+    border-radius: 5% 35%;
+    margin: 3px ;
+    float: left;
+    transition: margine0 5s;
+}
+.contenus_1{
+    height: 100px;
+    margin: 5px;
+    display:flex;
+    flex-direction:column;/*la valeur par defaut est row, les valeurs possibles(column,row,row-reverse,column-reverse..)*/
+    flex-wrap: nowrap;
+}
+.contenus_2{
+    height: 100px;
+    margin: 10px;
+    display:flex;
+    flex-direction:column;/*la valeur par defaut est row, les valeurs possibles(column,row,row-reverse,column-reverse..)*/
+    flex-wrap: nowrap;
+}
+.contenus_3{
+    display:flex;
+    flex-direction:row;/*la valeur par defaut est row, les valeurs possibles(column,row,row-reverse,column-reverse..)*/
+    justify-content: center;
+    align-items: center;
+}
+.contenus_4{
+    display:flex;
+    flex-direction:row;/*la valeur par defaut est row, les valeurs possibles(column,row,row-reverse,column-reverse..)*/
+    justify-content: center;
+    align-items: center;
+}
+.contenus_5{
+    display:flex;
+    flex-direction:row;/*la valeur par defaut est row, les valeurs possibles(column,row,row-reverse,column-reverse..)*/
+    justify-content: center;
+    align-items: center;
+}
+.contenus_6{
+    display:flex;
+    flex-direction:row-;/*la valeur par defaut est row, les valeurs possibles(column,row,row-reverse,column-reverse..)*/
+    justify-content: center;
+    align-items: center;
+}
