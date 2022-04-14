@@ -1,0 +1,119 @@
+.conteneur{
+    width: 1300px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+header{
+    font-size: 25px;
+    background-color: lightskyblue;
+    color: black;
+    text-align: center;
+}
+nav{
+    background-color: #4A1A2C;
+    height: 50px;
+    padding-left: 2em;
+    line-height: 45px;
+    text-align: center;
+}
+nav a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left:2em;
+    border-right: 1px solid #fff;
+    padding-right: 2em;
+}
+footer{
+    background-color: palevioletred;
+    height: 100px;
+}
+nav a:last-child{
+    border-right: none;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+section div{
+    display: flex;
+    height: 50vh;
+    width: 32vw;
+    
+}
+
+.zone1, .zone4{
+    background: linear-gradient(to left, #000000, #ca7105);
+}
+.zone2, .zone3{
+    background-color: green;
+}
+
+
+main{
+    border:1px solid black; 
+    
+}
+.zone3, .zone4{
+    margin-top: 15px;
+}
+@media screen and (max-width: 768px){
+    .conteneur{
+        width: 90%;
+    }
+
+header{background-color: #568e35;
+}
+section div{
+    width: 80vw;
+}
+section{
+    flex-direction: column;
+    align-items: center;
+}
+nav a{
+    display: block;
+    font-size: 16px;
+    border: none;
+}
+nav{
+    height: 150px;
+    line-height: 30px;
+}
+.zone2{
+    margin-top: 15px;
+    background-color: orange;
+}
+footer{
+    background-color: #568e35;
+}
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    .conteneur{
+        width: 90%;
+    }
+    section{
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    header{
+        background-color: #d46d19;
+    }
+    footer{
+        background-color: #d46d19;
+    }
+    section div{
+        width: 41vw;
+    }
+    .zone2, .zone3{
+        background-color: #F479D8;
+        background-image: url(../img/Ja\ GIF.gif)}
+        
+    .zone1,.zone4{
+        background-image: url("../img/LUFFY.jfif");
+        background-size:cover;/*avec cover l'image couvre la totalité du bloc(meme si l'image est plus grande)*/
+    }
+    }

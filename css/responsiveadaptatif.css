@@ -1,0 +1,45 @@
+
+.Zone-adaptive{
+    width: 500px;
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
+
+@media(max-width: 900px){
+    .Zone-adaptive{
+        background-color: orange;
+        width: 1170px;
+    }
+     }
+@media(max-width: 800px){
+    .Zone-adaptive{
+        background-color: pink;
+        width: 1170px;
+    }
+     }
+@media(max-width: 700px){
+.Zone-adaptive{
+    background-color: purple;
+    width: 1170px;
+}
+ }
+ @media(max-width: 600px){
+    .Zone-adaptive{
+        background-color: cyan;
+        width: 1170px;
+    }
+     }
+  @media(min-width: 900px){
+      .Zone-adaptive{
+          text-align: center;
+
+      }
+  }
+  @media(min-width: 800px){
+      .Zone-adaptive{
+          height: 700px;
+          line-height: 700px;
+          text-align: center;
+      }
+  }
