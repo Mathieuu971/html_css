@@ -1,0 +1,10 @@
+td{
+    border: 1px black solid
+}
+.Red{
+    color: red;
+    text-align: center;
+}
+.Center{
+    text-align: center;
+}

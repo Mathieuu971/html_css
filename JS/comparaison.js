@@ -1,0 +1,10 @@
+// prompt("ore wa luffy kaizoku ou ni naru otoko da");
+// var blabla = false;
+// var birthday = 2705;
+// var anniv = "mon anniversaire est le";
+// var concatenation = anniv + birthday;
+// document.write(concatenation);
+// var Euros = prompt("combien d'euros ?");
+// var Dollars = 1.05 * Euros;
+// document.write(Dollars);
+var test = document.write("BLABLABLA");

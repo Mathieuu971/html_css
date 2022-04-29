@@ -1,0 +1,66 @@
+body {
+  height: 3000px;
+}
+.R {
+  width: 100px;
+  height: 100px;
+  background: red;
+  display: inline-block;
+  position: static;
+}
+.B {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  position: fixed;
+  left: 90%;
+  display: inline-block;
+}
+.V {
+  width: 100px;
+  height: 100px;
+  background: green;
+  position: fixed;
+  display: inline-block;
+  margin-top: 15%;
+}
+.J {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  position: relative;
+  left: 90%;
+  display: inline-block;
+  margin-top: 15%;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 200px solid purple;
+  position: sticky;
+  top: 5%;
+}
+.rond {
+  width: 100px;
+  height: 100px;
+  background: cyan;
+  border-radius: 100%;
+  position: sticky;
+  top: 5%;
+  margin-top: 15%;
+}
+.ombre {
+  width: 100px;
+  height: 100px;
+  background: grey;
+  border-radius: 100%;
+  position: sticky;
+  top: 5%;
+}
+.conteneur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

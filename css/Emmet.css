@@ -1,0 +1,44 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(57, 165, 57);
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+.principal{
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    border: 2px solid darkgreen;
+}
+.menu{
+    width: 800px;
+}
+#conteneur{
+    justify-content: center;
+}
+footer{
+    background-color: white;
+}
+.section4{
+    height: 150px;
+}
+span{
+    background-color: gold;
+}
+footer{
+    text-align: right;
+    color: green;
+}
+h1{
+    text-align: left;
+    color: rgb(57, 165, 57) ;
+    padding-left: 2em;
+}
+section{
+    margin-left: 3em;
+    margin-right: 2em;
+    text-align: left;
+}

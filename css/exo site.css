@@ -1,0 +1,38 @@
+
+main{
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+nav{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    padding: 0em 2em;
+}
+
+section{
+
+    background-color: lightyellow;
+    justify-content: center;
+    width: 1000px;
+}
+.box{
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: space-around;
+
+}
+.boite2, .boite3{
+    background-color: lightyellow;
+    width: 700px;
+    height: 450px;
+
+}
+.boite4{
+    background-color: lightyellow;
+    width: 1000px;
+}

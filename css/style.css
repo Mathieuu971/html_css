@@ -1,0 +1,56 @@
+header{
+    background-color: purple;
+    height: 40px;
+}
+.Z{
+    background-color: lightskyblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    margin: 10px;
+
+}
+.droite{
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+section{
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+footer{
+    background-color: cornflowerblue;
+    height: 50px;
+    color: white;
+    line-height: 50px;
+    justify-content: space-around;
+    
+    
+}
+p{
+    padding-right: 20px;
+        margin-block-start: 5px;
+        margin-block-end: 5px;
+}
+.Pere{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#conteneur{
+    
+}
+a{
+    border: 2px solid  white;
+}

@@ -1,0 +1,52 @@
+/* ------ Importer des polices ------ */
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,700");
+
+/* ------ 1. Les balises ------ */
+body {
+  font-family: "Cormorant Garamond", serif;
+  background-color: #f6f6f7;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.conteneur {
+  width: 55%;
+  background-color: lightgrey;
+}
+header {
+  background-color: lightgrey;
+  text-align: center;
+  width: 50%;
+}
+main {
+  justify-content: center;
+  height: 2800px;
+}
+
+.clear {
+  clear: both;
+}
+
+.section2,
+.section3,
+.section4,
+.section5 {
+  text-align: center;
+}
+footer {
+  background-color: lightgrey;
+  width: 55%;
+  margin-left: 20%;
+  padding-bottom: 2%;
+}
+span {
+  color: #f6f6f7;
+  background-color: black;
+}
+.h1 {
+  padding-left: 33%;
+  width: 30%;
+}
+h1 {
+  border-bottom: 1px solid black;
+}

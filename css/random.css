@@ -1,0 +1,17 @@
+.container{
+    background: linear-gradient( lightpink, lightsalmon);
+}
+body{
+    background-color: rgb(182, 52, 182);
+}
+.form-control{
+    border-radius: 15em;
+}
+p{
+    font-size: xx-large;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+img{
+   align-items: center;
+}
