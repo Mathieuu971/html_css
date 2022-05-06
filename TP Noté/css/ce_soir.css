@@ -1,0 +1,86 @@
+.conteneur {
+  width: 50%;
+  margin: auto;
+}
+#B1,
+#B2,
+#B3,
+.b2 {
+  display: flex;
+  margin: auto;
+}
+.lien1 {
+  justify-content: space-between;
+}
+#B4 img {
+  width: 100%;
+}
+.imgG,
+.text2 {
+  margin: auto;
+  text-align: center;
+}
+.b2 img {
+  width: 150px;
+}
+.img2 img {
+  width: 650px;
+}
+.text1 {
+  text-align: center;
+  margin: auto;
+}
+.img1 img {
+  width: 650px;
+}
+.graine img {
+  width: 150px;
+}
+.moule img {
+  width: 350px;
+}
+.Zzz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.imgText3 {
+  display: flex;
+}
+.moule img {
+  width: 650px;
+}
+header {
+  font-family: "Caveat Brush", cursive;
+  background-image: url("../img/BG_Header.jpg");
+  height: 600px;
+}
+.b2 {
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+header img {
+  width: 200px;
+  padding-left: 37%;
+  padding-top: 25%;
+}
+footer {
+  background-image: url(../img/motif.jpg);
+  height: 300px;
+}
+.footer_right {
+  display: flex;
+  color: palevioletred;
+  padding: 0% 92%;
+}
