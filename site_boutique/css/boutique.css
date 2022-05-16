@@ -1,0 +1,158 @@
+.conteneur {
+  width: 80%;
+  margin: auto;
+  background-color: lightgray;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.panier {
+  width: 33%;
+  text-align: center;
+  color: white;
+  width: 350px;
+  background-color: rgb(103, 220, 255);
+}
+.panier2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.aide {
+  top: -20px;
+  right: -10px;
+  position: relative;
+}
+.num {
+  position: absolute;
+  top: 69px;
+  right: 70px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(103, 220, 255);
+}
+.logo {
+  display: flex;
+  width: 33%;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  line-height: 70px;
+  list-style-type: none;
+}
+nav {
+  width: auto;
+  background: linear-gradient(
+    to left,
+    rgb(103, 220, 255),
+    rgb(103, 220, 255) 50%,
+    rgb(103, 220, 255) 85%,
+    purple 65%
+  );
+  height: 70px;
+}
+.aidee {
+  display: flex;
+  width: 33%;
+  flex-direction: column;
+}
+.aidee h1 {
+  color: rgb(103, 220, 255);
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.Acceuil {
+  background-color: pink;
+}
+#First img {
+  width: 100%;
+}
+#Second {
+  display: flex;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.TextA {
+  width: 65%;
+}
+.TitreA,
+.TitreB,
+.TitreC {
+  color: rgb(103, 220, 255);
+}
+.imgA {
+  padding-top: 30px;
+}
+.B {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  border-right: 1px groove;
+}
+.A {
+  width: 20%;
+  border-right: 1px groove;
+}
+.C {
+  width: 20%;
+}
+.logo1 {
+  display: flex;
+  margin: auto;
+}
+.logo2 {
+  display: flex;
+  margin: auto;
+}
+.DD {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 10px 5px 5px grey;
+  height: 125px;
+}
+.D {
+  width: 20%;
+  text-align: left;
+}
+.TitreD {
+  text-align: center;
+}
+.E {
+  width: 30%;
+}
+.EE {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 10px 5px 5px grey;
+  height: 125px;
+}
+#Third {
+  display: flex;
+  justify-content: space-around;
+  height: 230px;
+}
+.FF {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 10px 5px 5px grey;
+  height: 125px;
+}
+.F {
+  width: 25%;
+}
+#Third H1 {
+  text-align: center;
+  background-color: rgba(90, 89, 89, 0.402);
+  margin-bottom: 0;
+}
+footer {
+  background-color: rgb(103, 220, 255);
+}

@@ -197,33 +197,162 @@
 //     // document.location.href = "https://www.youtube.com/";
 //   }
 // }
-var jour = prompt("date ?");
-switch (jour) {
-  case "lundi":
-    document.write("Demain on est Mardi");
-    break;
+// var jour = prompt("date ?");
+// switch (jour) {
+//   case "lundi":
+//     document.write("Demain on est Mardi");
+//     break;
 
-  case "mardi":
-    document.write("Demain on est mercredi");
-    break;
+//   case "mardi":
+//     document.write("Demain on est mercredi");
+//     break;
 
-  case "mercredi":
-    document.write("Demain on est jeudi");
-    break;
+//   case "mercredi":
+//     document.write("Demain on est jeudi");
+//     break;
 
-  case "jeudi":
-    document.write("Demain on est vendredi");
-    break;
+//   case "jeudi":
+//     document.write("Demain on est vendredi");
+//     break;
 
-  case "vendredi":
-    document.write("Demain on est samedi");
-    break;
+//   case "vendredi":
+//     document.write("Demain on est samedi");
+//     break;
 
-  case "samedi":
-    document.write("Demain on est dimanche");
-    break;
+//   case "samedi":
+//     document.write("Demain on est dimanche");
+//     break;
 
-  case "dimanche":
-    document.write("Demain on est lundi");
-    break;
+//   case "dimanche":
+//     document.write("Demain on est lundi");
+//     break;
+// }
+
+// var nombre1 = Number(prompt("Nombre 1 ?"));
+// var nombre2 = Number(prompt("Nombre 2 ?"));
+// var nombre3 = Number(prompt("Nombre 3 ?"));
+// if (nombre1 > nombre2) {
+//   nombre1 = nombre3 * 2;
+//   document.write(nombre1 + " " + nombre2 + " " + nombre3 + "<hr>");
+// } else if (nombre3 < nombre2) {
+//   nombre2++;
+//   document.write(nombre1 + " " + nombre2 + " " + nombre3 + "<hr>");
+//   if (nombre1 == nombre3) {
+//     nombre2 = nombre1 + nombre3 * 3;
+
+//     document.write(nombre1 + " " + nombre2 + " " + nombre3 + "<hr>");
+//   }
+// } else {
+//   alert("Je suis (pas) perdu");
+// }
+// var peace = Number(prompt("Une valeur man ?"));
+// if (peace < 20) {
+//   peace += 50;
+// } else if (peace > 20) {
+//   peace = peace * 3;
+
+//   document.write("Voice le resultat de la valeur final maaaaan" + " " + peace);
+// }
+// var Numb = parseInt(prompt("Saison une valeur"));
+// for (var depart = 0; depart <= 10; depart++) {
+//   if (Numb % 2 === 0) {
+//     console.log(Numb + " est pair");
+//   } else if (Numb % 2 !== 0) {
+//     console.log(Numb + "  est impair");
+//   }
+// }
+
+// EXO 13
+// var NUMB = parseInt(prompt("Saisis une valeur"));
+// var depart = 0;
+// while (depart <= 10) {
+//   if (NUMB % 2 === 0) {
+//     console.log(NUMB + " est pair");
+//   } else if (NUMB % 2 !== 0) {
+//     console.log(NUMB + "  est impair");
+//   }
+//   depart++;
+//   NUMB++;
+// }
+
+// EXO 14
+// var saisis = parseInt(prompt("Saisis un nombre entre 50 & 100"));
+// while (saisis < 50 && saisis > 100) {
+//   prompt("Saisis un nombre entre 50 & 100");
+// }
+
+// EXO 15
+
+// var multiplication = parseInt(prompt("Saisis une valeur"));
+// var calcul;
+// while (multiplication > 1 || multiplication < 10) {
+//   if (multiplication >= 2 && multiplication <= 9) {
+//     for (var i = 1; i <= 10; i++) {
+//       calcul = multiplication * i;
+
+//       document.write(
+//         multiplication + " " + "x" + " " + i + " " + "=" + " " + calcul + "<br>"
+//       );
+//     }
+//     break;
+//   } else {
+//     alert("Ton chiffre precedent n'etais pas compris entre entre 2 & 9");
+//     multiplication = parseInt(prompt("Saisis une valeur de ton choix"));
+//   }
+// }
+
+// var multiplication = parseInt(prompt("Entrez un nombre entre 2 et 9 : "));
+// var calcul;
+// while (multiplication > 1 || multiplication < 10) {
+//   if (multiplication >= 2 && multiplication <= 9) {
+//     for (var i = 1; i <= 10; i++) {
+//       calcul = multiplication * i;
+//       document.write(
+//         multiplication + " " + "x" + " " + i + " " + "=" + " " + calcul + "<br>"
+//       );
+//     }
+//     break;
+//   } else {
+//     multiplication = Number(prompt("Entrez un nombre entre 2 et 9 : "));
+//   }
+// }
+// var nbUser = prompt("Saisis une valeur");
+// for (tour = 0; tour < 10; tour++) {
+//   if (nbUser % 2 === 0) {
+//     document.write("c'est bien un nombre paire");
+//   } else if (nbUser % 2 !== 0) {
+//     document.write("Ceci est impair");
+//   }
+//   nbUser++;
+//
+
+// EXO 16
+// var reponse = "";
+// var i = 0;
+// while (reponse !== "oui") {
+//   reponse = prompt("Allez!! on joue a ni oui ni non?");
+//   i++;
+//   document.write(
+//     " Perdu ! pour ton " + i + "¤ tour tu as repondu : " + reponse + "<br>"
+//   );
+// }
+
+// var triangle = "";
+// var i = 1;
+// while (i <= 7) {
+//   triangle = triangle + "#";
+//   i++;
+//   document.write(triangle + "<br>");
+// }
+
+var road = 0;
+while (road < 100) {
+  road++;
+  if (road % 3 == 0) document.write(road + " : Fizz" + "<br>");
+  else if (road % 3 != 0 && road % 5 == 0) {
+    document.write(road + " : Buzz" + "<br>");
+  }
+  if (road % 3 == 0 && road % 5 == 0) {
+    document.write(road + " : FizzBuzz" + "<br>");
+  } else document.write(road + "<br>");
 }
