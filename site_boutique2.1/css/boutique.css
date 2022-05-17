@@ -20,14 +20,13 @@ header {
   color: white;
 }
 .aide {
-  top: -20px;
-  right: -10px;
   position: relative;
+  top: -25px;
 }
 .num {
   position: absolute;
-  top: 69px;
-  right: 70px;
+  top: 65px;
+  right: 75px;
   width: 100%;
   text-align: center;
   font-size: 18px;
@@ -92,6 +91,7 @@ a {
   padding-top: 30px;
 }
 .B {
+  padding-right: 20px;
   width: 55%;
   margin-left: auto;
   margin-right: auto;
@@ -103,6 +103,11 @@ a {
 }
 .C {
   width: 20%;
+}
+.A,
+.B,
+.C {
+  padding-left: 20px;
 }
 .logo1 {
   display: flex;
@@ -136,7 +141,7 @@ a {
 }
 #Third {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 230px;
 }
 .FF {
@@ -155,4 +160,63 @@ a {
 }
 footer {
   background-color: rgb(103, 220, 255);
+}
+.C p {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 990px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .logo {
+    flex-direction: column;
+  }
+  .num {
+    position: absolute;
+    top: 419px;
+    right: 232px;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  #Second {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+  }
+  .A,
+  .B,
+  .C {
+    border: none;
+  }
+
+  #Third {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+  }
+  .DD,
+  .EE,
+  .FF {
+    width: auto;
+  }
+  .D,
+  .E,
+  .F {
+    width: 100%;
+  }
 }

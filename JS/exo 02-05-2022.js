@@ -345,14 +345,36 @@
 //   document.write(triangle + "<br>");
 // }
 
-var road = 0;
-while (road < 100) {
-  road++;
-  if (road % 3 == 0) document.write(road + " : Fizz" + "<br>");
-  else if (road % 3 != 0 && road % 5 == 0) {
-    document.write(road + " : Buzz" + "<br>");
+// var road = 0;
+// while (road < 100) {
+//   road++;
+//   if (road % 3 == 0)
+//     document.write(road + " :  <h4 style=color:brown>Fizz</h4>" + "<br>");
+//   else if (road % 3 != 0 && road % 5 == 0) {
+//     document.write(road + " :<h4 style=color:red>Buzz</h4>" + "<br>");
+//   }
+//   if (road % 3 == 0 && road % 5 == 0) {
+//     document.write(road + " : <h4 style=color:purple>FizzBuzz</h4>" + "<br>");
+//   } else document.write(road + "<h4 style=color:lightblue>Aucun</h4>" + "<br>");
+// }
+
+// EXO 19
+
+alert("Hello et bienvenue !");
+var reponse = Math.floor(Math.random() * 100 + 1);
+
+for (var i = 1; i <= 6; i++) {
+  var saisis = prompt(
+    "Le but du jeu est simple. Je pense à un nombre entre 0 et 100. A ton avis, quel est ce nombre ? Notes le dans la zone ci-dessous, tu as 6 essais."
+  );
+
+  if (saisis === reponse) {
+    alert("Bravos ! le nombre etait : " + reponse);
+    i = 6;
+  } else {
+    if (saisis > reponse) {
+      alert("Le nombre est plus petit , essai  " + i + " sur 6");
+    } else alert("Le nombre est plus grand , essai  " + i + " sur 6");
   }
-  if (road % 3 == 0 && road % 5 == 0) {
-    document.write(road + " : FizzBuzz" + "<br>");
-  } else document.write(road + "<br>");
 }
+alert("La bonne réponse est " + reponse + ".");
