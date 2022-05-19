@@ -360,21 +360,76 @@
 
 // EXO 19
 
-alert("Hello et bienvenue !");
-var reponse = Math.floor(Math.random() * 100 + 1);
+// alert("Hello et bienvenue !");
+// var reponse = Math.floor(Math.random() * 100 + 1);
 
-for (var i = 1; i <= 6; i++) {
-  var saisis = prompt(
-    "Le but du jeu est simple. Je pense à un nombre entre 0 et 100. A ton avis, quel est ce nombre ? Notes le dans la zone ci-dessous, tu as 6 essais."
-  );
+// for (var i = 1; i <= 6; i++) {
+//   var saisis = prompt(
+//     "Le but du jeu est simple. Je pense à un nombre entre 0 et 100. A ton avis, quel est ce nombre ? Notes le dans la zone ci-dessous, tu as 6 essais."
+//   );
 
-  if (saisis === reponse) {
-    alert("Bravos ! le nombre etait : " + reponse);
-    i = 6;
-  } else {
-    if (saisis > reponse) {
-      alert("Le nombre est plus petit , essai  " + i + " sur 6");
-    } else alert("Le nombre est plus grand , essai  " + i + " sur 6");
-  }
-}
-alert("La bonne réponse est " + reponse + ".");
+//   if (saisis === reponse) {
+//     alert("Bravos ! le nombre etait : " + reponse);
+//     i = 6;
+//   } else {
+//     if (saisis > reponse) {
+//       alert("Le nombre est plus petit , essai  " + i + " sur 6");
+//     } else alert("Le nombre est plus grand , essai  " + i + " sur 6");
+//   }
+// }
+// alert("La bonne réponse est " + reponse + ".");
+
+// var saisis = prompt("Que choisissez-vous : pierre, feuille ou ciseau ?");
+// var IA;
+// random = Math.random();
+// if (random <= 0.33) {
+//   IA = "pierre";
+// } else if (random <= 0.66) {
+//   IA = "feuille";
+// } else {
+//   IA = "ciseau";
+// }
+// if (IA == saisis) {
+//   document.write("<p>Choix de l'ordinateur : " + IA + "</p>" + "<br>");
+//   document.write("Draw !");
+// } else {
+//   // Le joueur et l'ordinateur n'ont pas choisi la même chose, la bataille commence !
+
+//   switch (IA) {
+//     case "ciseau":
+//       if (saisis == "pierre") {
+//         document.write("<p>Choix de l'ordinateur : " + IA + "</p>" + "<br>");
+//         document.write("<p>La pierre écrase le ciseau : vous gagnez !</p>");
+//       } else {
+//         document.write("<p>Choix de l'ordinateur : " + IA + "</p>" + "<br>");
+//         document.write(
+//           "<p>La feuille est découpée par le ciseau : vous perdez !</p>"
+//         );
+//       }
+//       break;
+
+//     case "feuille":
+//       if (saisis == "pierre") {
+//         document.write("<p>Choix de l'ordinateur : " + IA + "</p>" + "<br>");
+
+//         document.write(
+//           "<p>La pierre est enveloppée par la feuille : vous perdez !</p>"
+//         );
+//       } else {
+//         document.write("<p>Choix de l'ordinateur : " + IA + "</p>" + "<br>");
+//         document.write("<p>Le ciseau découpe la feuille : vous gagnez !</p>");
+//       }
+//       break;
+//     case "pierre":
+//       if (saisis == "feuille") {
+//         document.write("<p>Choix de l'ordinateur : " + IA + "</p>" + "<br>");
+//         document.write("<p>La feuille enveloppe la pierre : vous gagnez !</p>");
+//       } else {
+//         document.write("<p>Choix de l'ordinateur : " + IA + "</p>" + "<br>");
+//         document.write(
+//           "<p>Le ciseau est écrasé par la pierre : vous perdez !</p>"
+//         );
+//       }
+//       break;
+//   }
+// }

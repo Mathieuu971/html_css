@@ -1,0 +1,268 @@
+@font-face {
+  font-family: "Paris";
+  src: url(../../font_family/Parisienne-Regular.ttf);
+}
+.conteneur {
+  background-color: black;
+  width: 90%;
+  margin: auto;
+  /* background-color: black; */
+}
+.menuu {
+  display: flex;
+}
+header {
+  filter: brightness(70%);
+  margin: auto;
+  height: 600px;
+  width: 80%;
+  background-image: url(../img/eggs.jpg);
+  background-repeat: no-repeat;
+  color: #fff;
+}
+header a {
+  color: #fff;
+}
+.menuu {
+  display: flex;
+}
+header h3 {
+  font-family: Paris;
+  color: gold;
+}
+li {
+  list-style-type: none;
+  float: left;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 70%;
+}
+.clear {
+  clear: both;
+}
+.menuu p {
+  width: 20%;
+}
+nav {
+  width: 100%;
+}
+ul {
+  display: flex;
+  margin-left: 48%;
+
+  justify-content: space-between;
+}
+header div {
+  text-align: center;
+  padding-top: 3%;
+}
+#Z1,
+#Z2,
+#Z3,
+#Z4,
+#Z5 {
+  color: #fff;
+}
+.Z1T h2 {
+  font-family: Paris;
+  color: gold;
+}
+.Z1T a {
+  font-family: Paris;
+  color: gold;
+}
+.Z1TT h2 {
+  color: gold;
+  font-family: Paris;
+}
+.Z1TT a {
+  font-family: Paris;
+  color: gold;
+}
+#Z2 h2 {
+  color: gold;
+  font-family: Paris;
+}
+#Z3 h1 {
+  color: gold;
+  font-family: Paris;
+}
+.Z4T a {
+  font-family: Paris;
+  color: gold;
+}
+.discover {
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+.Z1T {
+  width: 50%;
+  margin: auto;
+}
+.tasteful {
+  flex-direction: row-reverse;
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+.Z1TT {
+  width: 50%;
+  margin: auto;
+}
+.Z1TT img {
+  margin: auto;
+}
+#Z2 {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+#Z2 ul {
+  margin: auto;
+}
+.z1-1 {
+  padding-bottom: 2%;
+  margin: auto;
+  width: 80%;
+  display: flex;
+}
+.Z1G {
+  display: flex;
+}
+.Z1G img {
+  width: 275px;
+}
+.Z1D {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.Z1D img {
+  width: 275px;
+}
+
+.Z1GT {
+  text-align: left;
+  margin: auto;
+  width: 40%;
+}
+.Z1DT {
+  text-align: right;
+  margin: auto;
+  width: 40%;
+}
+.Z1-2 {
+  margin: auto;
+  width: 80%;
+  display: flex;
+}
+.Z1-2 img {
+  width: 275px;
+}
+.Z1-2G {
+  display: flex;
+}
+.Z1-2D {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.Z1-2GT {
+  text-align: left;
+  margin: auto;
+  width: 40%;
+}
+.Z1-2DT {
+  text-align: right;
+  margin: auto;
+  width: 40%;
+}
+#Z4 {
+  padding-top: 5%;
+  width: 50%;
+  margin: auto;
+}
+.Z4 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+#Z5 {
+  height: 600px;
+  width: 80%;
+  margin: auto;
+  background-image: url(../img/reservation.jpg);
+}
+#Z5 {
+  text-align: center;
+  color: #fff;
+  padding-top: 3%;
+}
+#Z6 {
+  width: 70%;
+
+  text-align: right;
+  color: #fff;
+}
+#Z6 h3,
+a {
+  color: gold;
+}
+
+.date {
+  border: solid 1px grey;
+  background: transparent;
+  color: grey;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  font-size: 23px;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  border: solid 1px grey;
+  background: transparent;
+  color: grey;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  font-size: 23px;
+  margin-right: 30px;
+}
+#nombre {
+  border: solid 1px grey;
+  background: transparent;
+  color: grey;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  font-size: 23px;
+  margin-right: 30px;
+}
+body {
+  background-image: url(../img/bc.png);
+}
+footer {
+  opacity: 55%;
+  padding-top: 120px;
+  justify-content: space-around;
+  display: flex;
+  color: #fff;
+  margin: auto;
+  width: 90%;
+  background-image: url(../img/bc.png);
+  height: 300px;
+}
+.B1 {
+  width: 25%;
+}
+footer h1 {
+  color: gold;
+}
